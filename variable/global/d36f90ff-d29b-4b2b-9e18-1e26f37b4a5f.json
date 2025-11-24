@@ -1,0 +1,23 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2025-11-24T12:18:41.842Z",
+  "updatedAt": "2025-11-24T12:18:41.842Z",
+  "isDeleted": false,
+  "commitId": "",
+  "status": "",
+  "lastVersion": "",
+  "isLive": null,
+  "commitInfo": {
+   "timeStamp": "0001-01-01T00:00:00Z"
+  },
+  "entityId": "d36f90ff-d29b-4b2b-9e18-1e26f37b4a5f",
+  "name": "Subhanshu1",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "numeric",
+  "value": {
+   "data": 1212312
+  }
+ }
+}
