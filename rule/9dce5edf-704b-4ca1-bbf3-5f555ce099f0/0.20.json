@@ -1,15 +1,16 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2025-11-24T07:56:24.836Z",
-  "updatedAt": "2025-11-24T09:25:01.040048Z",
+  "updatedAt": "2025-11-24T09:25:01.035Z",
   "isDeleted": false,
   "testedAt": "2025-11-24T09:24:54.458Z",
   "publishedAt": "2025-11-24T09:25:01.031Z",
   "entityId": "9dce5edf-704b-4ca1-bbf3-5f555ce099f0",
   "name": "Rule3Master",
-  "commitId": "commit-1486fa75-cbb2-4c88-9839-a43e7fb21b0f",
+  "commitId": "commit-8ae4b062-500d-4aa6-9d7d-8c0103e99fc3",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,
@@ -47,14 +48,6 @@
   },
   "conditions": {
    "nodes": {
-    "rule_01": {
-     "operator": "and",
-     "nodeType": "group",
-     "children": [
-      "rule_02"
-     ],
-     "siblingIndex": 1
-    },
     "rule_02": {
      "value": "",
      "name": "Any",
@@ -91,6 +84,14 @@
      "nodeType": "group",
      "children": [
       "c_cZ2YKM"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_01": {
+     "operator": "and",
+     "nodeType": "group",
+     "children": [
+      "rule_02"
      ],
      "siblingIndex": 1
     }
