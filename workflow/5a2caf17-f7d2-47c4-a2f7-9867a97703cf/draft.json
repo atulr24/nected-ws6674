@@ -1,0 +1,53 @@
+{
+ "entityType": "workflow",
+ "data": {
+  "testedAt": "0001-01-01T00:00:00Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "createdAt": "2025-11-24T07:38:56.882Z",
+  "updatedAt": "2025-11-24T07:38:56.882Z",
+  "isDeleted": false,
+  "entityId": "5a2caf17-f7d2-47c4-a2f7-9867a97703cf",
+  "name": "Test1",
+  "commitId": "commit-05c71a75-d039-4f54-9ef5-558ebedb0fa3",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-24 07:38:56",
+   "timeStamp": "2025-11-24T07:38:56.882243064Z"
+  },
+  "version": "draft",
+  "description": "",
+  "trigger": {
+   
+  },
+  "nodes": [
+   {
+    "position": {
+     "x": 0,
+     "y": 0
+    },
+    "sourcePosition": "bottom",
+    "id": "1",
+    "type": "addNode",
+    "data": {
+     "settings": {
+      "authType": "none",
+      "isEnabled": true
+     },
+     "nodeType": "addNodeLg",
+     "runInLoop": {
+      
+     },
+     "testedAt": "0001-01-01T00:00:00Z"
+    }
+   }
+  ],
+  "isEnabled": true,
+  "settings": {
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  },
+  "isDemo": false
+ }
+}
