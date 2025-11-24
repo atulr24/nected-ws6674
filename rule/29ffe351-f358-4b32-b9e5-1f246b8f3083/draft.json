@@ -3,9 +3,9 @@
  "category": "ruleSet",
  "data": {
   "createdAt": "2025-11-24T09:06:00.017Z",
-  "updatedAt": "2025-11-24T09:06:50.507002Z",
+  "updatedAt": "2025-11-24T09:08:56.807675Z",
   "isDeleted": false,
-  "testedAt": "2025-11-24T09:06:50.506Z",
+  "testedAt": "2025-11-24T09:08:56.806Z",
   "publishedAt": "0001-01-01T00:00:00Z",
   "entityId": "29ffe351-f358-4b32-b9e5-1f246b8f3083",
   "name": "RuleSet",
@@ -25,17 +25,17 @@
    }
   },
   "ruleChain": {
-   "0428c598-ab9b-413d-85f2-c1ac4868d5ae": {
-    "prevRuleId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
-    "nextRuleId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
-    "isEnabled": true
-   },
    "b8e599a4-f8c7-4f88-902c-f93319ecb337": {
     "prevRuleId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
     "isEnabled": true
    },
    "d77322ef-2607-42c1-b089-d6e2e199bb39": {
     "nextRuleId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
+    "isEnabled": true
+   },
+   "0428c598-ab9b-413d-85f2-c1ac4868d5ae": {
+    "prevRuleId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
+    "nextRuleId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
     "isEnabled": true
    }
   },
@@ -54,7 +54,7 @@
    
   },
   "firstRuleChain": "d77322ef-2607-42c1-b089-d6e2e199bb39",
-  "ruleSetPolicy": "first",
+  "ruleSetPolicy": "evaluteAll",
   "description": "",
   "version": "draft",
   "type": "ruleSet",
@@ -91,13 +91,13 @@
    "entityType": "rule",
    "entityId": "29ffe351-f358-4b32-b9e5-1f246b8f3083",
    "entityVersion": "draft",
-   "entityNodeId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+   "entityNodeId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
    "dependencyType": "rule",
-   "dependencyId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+   "dependencyId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
    "dependencyVersion": "draft",
    "isDeleted": false,
-   "createdAt": "2025-11-24T09:06:10.410331Z",
-   "updatedAt": "2025-11-24T09:06:10.410331Z"
+   "createdAt": "2025-11-24T09:06:07.005006Z",
+   "updatedAt": "2025-11-24T09:08:54.9983Z"
   },
   {
    "entityCommitId": "commit-5e63a420-110a-4de4-8968-b5e3fffe468c",
@@ -110,20 +110,20 @@
    "dependencyVersion": "draft",
    "isDeleted": false,
    "createdAt": "2025-11-24T09:06:08.890288Z",
-   "updatedAt": "2025-11-24T09:06:10.409151Z"
+   "updatedAt": "2025-11-24T09:08:55.000183Z"
   },
   {
    "entityCommitId": "commit-5e63a420-110a-4de4-8968-b5e3fffe468c",
    "entityType": "rule",
    "entityId": "29ffe351-f358-4b32-b9e5-1f246b8f3083",
    "entityVersion": "draft",
-   "entityNodeId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
+   "entityNodeId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
    "dependencyType": "rule",
-   "dependencyId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
+   "dependencyId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
    "dependencyVersion": "draft",
    "isDeleted": false,
-   "createdAt": "2025-11-24T09:06:07.005006Z",
-   "updatedAt": "2025-11-24T09:06:10.407195Z"
+   "createdAt": "2025-11-24T09:06:10.410331Z",
+   "updatedAt": "2025-11-24T09:08:55.001355Z"
   }
  ]
 }

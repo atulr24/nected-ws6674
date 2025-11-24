@@ -2,27 +2,20 @@
  "entityType": "rule",
  "category": "decisionTable",
  "data": {
-  "createdAt": "2025-11-24T09:04:56.83Z",
-  "updatedAt": "2025-11-24T09:08:30.763165Z",
+  "createdAt": "2025-11-24T07:56:24.836Z",
+  "updatedAt": "2025-11-24T07:57:46.689754Z",
   "isDeleted": false,
-  "testedAt": "2025-11-24T09:05:37.957Z",
+  "testedAt": "0001-01-01T00:00:00Z",
   "publishedAt": "0001-01-01T00:00:00Z",
-  "entityId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
-  "name": "Rule3",
-  "commitId": "commit-ecda18a7-b4e4-4529-99ca-fe1b5ca3c642",
+  "entityId": "9dce5edf-704b-4ca1-bbf3-5f555ce099f0",
+  "name": "Rule3Master",
+  "commitId": "commit-cc8d6c50-7033-4d7e-9544-d17cabd6b967",
   "status": "draft",
   "lastVersion": "",
   "isLive": false,
   "commitInfo": {
-   "title": "Created at 2025-11-24 09:04:56",
-   "timeStamp": "2025-11-24T09:04:56.83046506Z"
-  },
-  "customInput": {
-   "name": {
-    "name": "name",
-    "dataType": "string",
-    "executedValue": "Atul"
-   }
+   "title": "Created at 2025-11-24 07:56:24",
+   "timeStamp": "2025-11-24T07:56:24.836124015Z"
   },
   "decisionTable": {
    "rows": {
@@ -43,24 +36,10 @@
     "actionNode": {
      "actionData_action_1": {
       "name": "action_1",
-      "connectorId": "623dbcb2-5647-4490-ba1c-6f9f644e8f00",
+      "connectorId": "f0a44914-9632-4212-bad8-740b7ed2bc78",
       "entity": "",
       "entityId": "",
       "config": {
-       "method": "GET",
-       "headers": [],
-       "settings": {
-        "cache": {
-         "enabled": false,
-         "duration": {
-          "unit": "d",
-          "value": 0
-         },
-         "cacheKeys": ""
-        }
-       },
-       "queryParams": [],
-       "path": "/posts/2",
        "query": ""
       }
      }
@@ -74,18 +53,10 @@
   "conditions": {
    "nodes": {
     "rule_03": {
-     "sourceType": "customInput",
-     "dataType": "string",
+     "sourceType": "custom",
+     "dataType": "jsCondition",
      "nodeType": "params",
-     "attribute": "name",
-     "siblingIndex": 1
-    },
-    "rhs_quAfvN": {
-     "sourceType": "systemVar",
-     "dataType": "string",
-     "nodeType": "params",
-     "attribute": "Environment",
-     "parent": "rule_02",
+     "attribute": "sql",
      "siblingIndex": 1
     },
     "rule_01": {
@@ -98,21 +69,18 @@
     },
     "rule_02": {
      "value": "",
-     "operator": "eq",
-     "dataType": "string",
-     "nodeType": "condition",
+     "name": "Any",
+     "dataType": "jsCondition",
+     "nodeType": "jsCondition",
+     "query": "1===1",
      "parent": "rule_01",
      "leftNode": [
       "rule_03"
-     ],
-     "rightNode": [
-      "rhs_quAfvN"
      ],
      "siblingIndex": 1
     }
    }
   },
-  "firstCustomInput": "name",
   "description": "",
   "policy": "first",
   "version": "draft",
@@ -142,17 +110,17 @@
  },
  "dependencies": [
   {
-   "entityCommitId": "commit-ecda18a7-b4e4-4529-99ca-fe1b5ca3c642",
+   "entityCommitId": "commit-cc8d6c50-7033-4d7e-9544-d17cabd6b967",
    "entityType": "rule",
-   "entityId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+   "entityId": "9dce5edf-704b-4ca1-bbf3-5f555ce099f0",
    "entityVersion": "draft",
    "entityNodeId": "then-actionData_action_1",
    "dependencyType": "connector",
-   "dependencyId": "623dbcb2-5647-4490-ba1c-6f9f644e8f00",
+   "dependencyId": "f0a44914-9632-4212-bad8-740b7ed2bc78",
    "dependencyVersion": "live",
    "isDeleted": false,
-   "createdAt": "2025-11-24T09:05:26.724713Z",
-   "updatedAt": "2025-11-24T09:08:30.771615Z"
+   "createdAt": "2025-11-24T07:57:46.697133Z",
+   "updatedAt": "2025-11-24T07:57:46.697133Z"
   }
  ]
 }
