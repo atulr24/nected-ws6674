@@ -1,0 +1,108 @@
+{
+ "entityType": "rule",
+ "category": "decisionTable",
+ "data": {
+  "createdAt": "2025-11-24T10:41:28.261Z",
+  "updatedAt": "2025-11-24T10:41:28.261Z",
+  "isDeleted": false,
+  "testedAt": "0001-01-01T00:00:00Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "e442c0b6-d32f-4b4a-a423-f0e9b7a4bd3e",
+  "name": "r1",
+  "commitId": "commit-38b3057a-86f6-436e-b42b-eab65d7d62c0",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-11-24 10:41:28",
+   "timeStamp": "2025-11-24T10:41:28.2616973Z"
+  },
+  "decisionTable": {
+   "rows": {
+    "rule_01": {
+     "isEnabled": true
+    }
+   },
+   "properties": {
+    "rule_03": {
+     "type": "simpleCondition"
+    }
+   },
+   "results": {
+    "result_01": {
+     "dataType": "string",
+     "keyName": "keyName"
+    }
+   },
+   "firstRow": "rule_01",
+   "firstProperty": "rule_03"
+  },
+  "action": {
+   "then": {
+    
+   },
+   "else": {
+    
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rule_02": {
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "rule_03"
+     ],
+     "rightNode": [
+      "rule_04"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_03": {
+     "nodeType": "params",
+     "siblingIndex": 1
+    },
+    "rule_04": {
+     "value": "",
+     "nodeType": "constant",
+     "parent": "rule_02",
+     "siblingIndex": 1
+    },
+    "rule_01": {
+     "operator": "and",
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
+    }
+   },
+   "startNode": "rule_01"
+  },
+  "description": "",
+  "policy": "first",
+  "version": "draft",
+  "type": "decisionTable",
+  "settings": {
+   "startAt": "0001-01-01T00:00:00Z",
+   "endAt": "0001-01-01T00:00:00Z",
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": ""
+    },
+    "CacheKeys": ""
+   },
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  },
+  "isDemo": false,
+  "schemaVersion": "0.1.1"
+ }
+}
