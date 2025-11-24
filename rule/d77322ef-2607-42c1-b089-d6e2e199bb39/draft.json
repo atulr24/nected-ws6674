@@ -3,9 +3,9 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-11-24T07:19:51.459Z",
-  "updatedAt": "2025-11-24T07:27:37.858908Z",
+  "updatedAt": "2025-11-24T07:30:41.97255Z",
   "isDeleted": false,
-  "testedAt": "2025-11-24T07:27:37.858Z",
+  "testedAt": "2025-11-24T07:30:41.972Z",
   "publishedAt": "0001-01-01T00:00:00Z",
   "entityId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
   "name": "Rule1",
@@ -47,6 +47,30 @@
       "entity": "",
       "entityId": "",
       "config": {
+       "query": "db.comments.insertOne({})",
+       "settings": {
+        "cache": {
+         "enabled": false,
+         "duration": {
+          "unit": "d",
+          "value": 0
+         },
+         "cacheKeys": ""
+        }
+       }
+      },
+      "next": "actionData_action_2"
+     },
+     "actionData_action_2": {
+      "name": "action_2",
+      "connectorId": "623dbcb2-5647-4490-ba1c-6f9f644e8f00",
+      "entity": "",
+      "entityId": "",
+      "config": {
+       "path": "/posts/2",
+       "query": "",
+       "method": "GET",
+       "headers": [],
        "settings": {
         "cache": {
          "enabled": false,
@@ -57,7 +81,7 @@
          "cacheKeys": ""
         }
        },
-       "query": "db.comments.insertOne({})"
+       "queryParams": []
       }
      }
     },
@@ -131,13 +155,26 @@
    "entityType": "rule",
    "entityId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
    "entityVersion": "draft",
+   "entityNodeId": "then-actionData_action_2",
+   "dependencyType": "connector",
+   "dependencyId": "623dbcb2-5647-4490-ba1c-6f9f644e8f00",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-24T07:30:33.166761Z",
+   "updatedAt": "2025-11-24T07:30:40.451442Z"
+  },
+  {
+   "entityCommitId": "commit-11451dff-13b1-4e2d-a3a0-03f6ca4f3842",
+   "entityType": "rule",
+   "entityId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
+   "entityVersion": "draft",
    "entityNodeId": "then-actionData_action_1",
    "dependencyType": "connector",
    "dependencyId": "3e10bc40-7d66-46b6-92f5-a128bd6b319e",
    "dependencyVersion": "live",
    "isDeleted": false,
    "createdAt": "2025-11-24T07:21:45.115937Z",
-   "updatedAt": "2025-11-24T07:24:12.573258Z"
+   "updatedAt": "2025-11-24T07:30:40.450152Z"
   }
  ]
 }
