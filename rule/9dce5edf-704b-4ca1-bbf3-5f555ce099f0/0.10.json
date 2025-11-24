@@ -1,15 +1,16 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2025-11-24T07:56:24.836Z",
-  "updatedAt": "2025-11-24T09:16:07.583745Z",
+  "updatedAt": "2025-11-24T09:16:07.579Z",
   "isDeleted": false,
   "testedAt": "2025-11-24T09:16:01.584Z",
   "publishedAt": "2025-11-24T09:16:07.572Z",
   "entityId": "9dce5edf-704b-4ca1-bbf3-5f555ce099f0",
   "name": "Rule3Master",
-  "commitId": "commit-fd7c53f9-cc78-42c2-9838-211888f7c1bc",
+  "commitId": "commit-cc8d6c50-7033-4d7e-9544-d17cabd6b967",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,
