@@ -1,22 +1,23 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2025-11-24T07:43:27.357Z",
-  "updatedAt": "2025-11-24T07:52:14.031986Z",
+  "updatedAt": "2025-11-24T07:49:11.891Z",
   "isDeleted": false,
-  "testedAt": "2025-11-24T07:52:05.152Z",
-  "publishedAt": "2025-11-24T07:52:14.019Z",
+  "testedAt": "2025-11-24T07:49:07.944Z",
+  "publishedAt": "2025-11-24T07:49:11.884Z",
   "entityId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
   "name": "Rule2",
-  "commitId": "commit-d2348f9c-c36c-4382-9c2b-5554d5786138",
+  "commitId": "commit-3b8aa03f-803e-40bd-bb80-835f662bb636",
   "status": "published",
   "lastVersion": "draft",
-  "isLive": true,
+  "isLive": false,
   "commitInfo": {
    "title": "Forked from 0.10",
    "description": "v2",
-   "timeStamp": "2025-11-24T07:52:14.017Z"
+   "timeStamp": "2025-11-24T07:49:11.883Z"
   },
   "customInput": {
    "name": {
@@ -49,6 +50,20 @@
   },
   "conditions": {
    "nodes": {
+    "rule_03": {
+     "sourceType": "customInput",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "name",
+     "siblingIndex": 1
+    },
+    "rhs_A270ua": {
+     "value": "wer",
+     "dataType": "string",
+     "nodeType": "constant",
+     "parent": "rule_02",
+     "siblingIndex": 1
+    },
     "rule_01": {
      "operator": "and",
      "nodeType": "group",
@@ -70,28 +85,13 @@
       "rhs_A270ua"
      ],
      "siblingIndex": 1
-    },
-    "rule_03": {
-     "sourceType": "customInput",
-     "dataType": "string",
-     "nodeType": "params",
-     "attribute": "name",
-     "siblingIndex": 1
-    },
-    "rhs_A270ua": {
-     "sourceType": "globalVar",
-     "dataType": "string",
-     "nodeType": "params",
-     "attribute": "ty",
-     "parent": "rule_02",
-     "siblingIndex": 1
     }
    }
   },
   "firstCustomInput": "name",
   "description": "",
   "policy": "first",
-  "version": "0.30",
+  "version": "0.20",
   "type": "decisionTable",
   "dataSetId": "",
   "settings": {
@@ -106,7 +106,7 @@
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": ""
+     "Unit": "d"
     },
     "CacheKeys": ""
    },
