@@ -1,15 +1,16 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2025-11-24T07:43:27.357Z",
-  "updatedAt": "2025-11-24T07:52:14.031986Z",
+  "updatedAt": "2025-11-24T07:52:14.027Z",
   "isDeleted": false,
   "testedAt": "2025-11-24T07:52:05.152Z",
   "publishedAt": "2025-11-24T07:52:14.019Z",
   "entityId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
   "name": "Rule2",
-  "commitId": "commit-d2348f9c-c36c-4382-9c2b-5554d5786138",
+  "commitId": "commit-18aabbd7-d474-44b8-b6b4-a09b8a031087",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,
@@ -115,5 +116,20 @@
   },
   "isDemo": false,
   "schemaVersion": "0.1.1"
- }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-18aabbd7-d474-44b8-b6b4-a09b8a031087",
+   "entityType": "rule",
+   "entityId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
+   "entityVersion": "0.30",
+   "entityNodeId": "ty",
+   "dependencyType": "variable",
+   "dependencyId": "329c6eb6-9e16-4eed-8dd6-b6360f791864",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-24T07:51:41.780142Z",
+   "updatedAt": "2025-11-24T07:52:14.024138Z"
+  }
+ ]
 }
