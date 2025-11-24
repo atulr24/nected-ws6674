@@ -1,0 +1,23 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2025-11-24T12:34:56.487Z",
+  "updatedAt": "2025-11-24T12:34:56.487Z",
+  "isDeleted": false,
+  "commitId": "",
+  "status": "",
+  "lastVersion": "",
+  "isLive": null,
+  "commitInfo": {
+   "timeStamp": "0001-01-01T00:00:00Z"
+  },
+  "entityId": "a1acd2f9-096c-4a79-9562-ee9e1c792194",
+  "name": "1234",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "string",
+  "value": {
+   "data": "qweq"
+  }
+ }
+}
