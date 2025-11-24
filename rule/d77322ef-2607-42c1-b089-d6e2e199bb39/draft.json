@@ -3,9 +3,9 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2025-11-24T07:19:51.459Z",
-  "updatedAt": "2025-11-24T07:30:41.97255Z",
+  "updatedAt": "2025-11-24T07:34:22.678061Z",
   "isDeleted": false,
-  "testedAt": "2025-11-24T07:30:41.972Z",
+  "testedAt": "2025-11-24T07:34:22.677Z",
   "publishedAt": "0001-01-01T00:00:00Z",
   "entityId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
   "name": "Rule1",
@@ -50,12 +50,12 @@
        "query": "db.comments.insertOne({})",
        "settings": {
         "cache": {
+         "cacheKeys": "",
          "enabled": false,
          "duration": {
           "unit": "d",
           "value": 0
-         },
-         "cacheKeys": ""
+         }
         }
        }
       },
@@ -67,8 +67,6 @@
       "entity": "",
       "entityId": "",
       "config": {
-       "path": "/posts/2",
-       "query": "",
        "method": "GET",
        "headers": [],
        "settings": {
@@ -81,7 +79,9 @@
          "cacheKeys": ""
         }
        },
-       "queryParams": []
+       "queryParams": [],
+       "path": "/posts/2",
+       "query": ""
       }
      }
     },
@@ -161,7 +161,7 @@
    "dependencyVersion": "live",
    "isDeleted": false,
    "createdAt": "2025-11-24T07:30:33.166761Z",
-   "updatedAt": "2025-11-24T07:30:40.451442Z"
+   "updatedAt": "2025-11-24T07:34:20.971813Z"
   },
   {
    "entityCommitId": "commit-11451dff-13b1-4e2d-a3a0-03f6ca4f3842",
@@ -174,7 +174,7 @@
    "dependencyVersion": "live",
    "isDeleted": false,
    "createdAt": "2025-11-24T07:21:45.115937Z",
-   "updatedAt": "2025-11-24T07:30:40.450152Z"
+   "updatedAt": "2025-11-24T07:34:20.970383Z"
   }
  ]
 }
