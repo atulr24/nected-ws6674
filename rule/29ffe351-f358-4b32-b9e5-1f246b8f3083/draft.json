@@ -3,9 +3,9 @@
  "category": "ruleSet",
  "data": {
   "createdAt": "2025-11-24T09:06:00.017Z",
-  "updatedAt": "2025-11-24T09:15:45.752193Z",
+  "updatedAt": "2025-11-24T09:50:37.360614Z",
   "isDeleted": false,
-  "testedAt": "2025-11-24T09:08:56.806Z",
+  "testedAt": "2025-11-24T09:47:40.837Z",
   "publishedAt": "0001-01-01T00:00:00Z",
   "entityId": "29ffe351-f358-4b32-b9e5-1f246b8f3083",
   "name": "RuleSet",
@@ -21,21 +21,26 @@
    "name": {
     "name": "name",
     "dataType": "string",
-    "executedValue": "Atul"
+    "executedValue": "sd"
    }
   },
   "ruleChain": {
+   "0428c598-ab9b-413d-85f2-c1ac4868d5ae": {
+    "prevRuleId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
+    "nextRuleId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+    "isEnabled": true
+   },
+   "9dce5edf-704b-4ca1-bbf3-5f555ce099f0": {
+    "prevRuleId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+    "isEnabled": true
+   },
    "b8e599a4-f8c7-4f88-902c-f93319ecb337": {
     "prevRuleId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
+    "nextRuleId": "9dce5edf-704b-4ca1-bbf3-5f555ce099f0",
     "isEnabled": true
    },
    "d77322ef-2607-42c1-b089-d6e2e199bb39": {
     "nextRuleId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
-    "isEnabled": true
-   },
-   "0428c598-ab9b-413d-85f2-c1ac4868d5ae": {
-    "prevRuleId": "d77322ef-2607-42c1-b089-d6e2e199bb39",
-    "nextRuleId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
     "isEnabled": true
    }
   },
@@ -61,7 +66,8 @@
   "ruleSet": [
    "d77322ef-2607-42c1-b089-d6e2e199bb39",
    "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
-   "b8e599a4-f8c7-4f88-902c-f93319ecb337"
+   "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+   "9dce5edf-704b-4ca1-bbf3-5f555ce099f0"
   ],
   "settings": {
    "startAt": "0001-01-01T00:00:00Z",
@@ -92,26 +98,13 @@
    "entityType": "rule",
    "entityId": "29ffe351-f358-4b32-b9e5-1f246b8f3083",
    "entityVersion": "draft",
-   "entityNodeId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+   "entityNodeId": "9dce5edf-704b-4ca1-bbf3-5f555ce099f0",
    "dependencyType": "rule",
-   "dependencyId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+   "dependencyId": "9dce5edf-704b-4ca1-bbf3-5f555ce099f0",
    "dependencyVersion": "draft",
    "isDeleted": false,
-   "createdAt": "2025-11-24T09:06:10.410331Z",
-   "updatedAt": "2025-11-24T09:15:45.7622Z"
-  },
-  {
-   "entityCommitId": "commit-5e63a420-110a-4de4-8968-b5e3fffe468c",
-   "entityType": "rule",
-   "entityId": "29ffe351-f358-4b32-b9e5-1f246b8f3083",
-   "entityVersion": "draft",
-   "entityNodeId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
-   "dependencyType": "rule",
-   "dependencyId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
-   "dependencyVersion": "draft",
-   "isDeleted": false,
-   "createdAt": "2025-11-24T09:06:08.890288Z",
-   "updatedAt": "2025-11-24T09:15:45.763872Z"
+   "createdAt": "2025-11-24T09:47:51.709204Z",
+   "updatedAt": "2025-11-24T09:50:37.373207Z"
   },
   {
    "entityCommitId": "commit-5e63a420-110a-4de4-8968-b5e3fffe468c",
@@ -124,7 +117,33 @@
    "dependencyVersion": "draft",
    "isDeleted": false,
    "createdAt": "2025-11-24T09:06:07.005006Z",
-   "updatedAt": "2025-11-24T09:15:45.765286Z"
+   "updatedAt": "2025-11-24T09:50:37.375074Z"
+  },
+  {
+   "entityCommitId": "commit-5e63a420-110a-4de4-8968-b5e3fffe468c",
+   "entityType": "rule",
+   "entityId": "29ffe351-f358-4b32-b9e5-1f246b8f3083",
+   "entityVersion": "draft",
+   "entityNodeId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
+   "dependencyType": "rule",
+   "dependencyId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-24T09:06:08.890288Z",
+   "updatedAt": "2025-11-24T09:50:37.376285Z"
+  },
+  {
+   "entityCommitId": "commit-5e63a420-110a-4de4-8968-b5e3fffe468c",
+   "entityType": "rule",
+   "entityId": "29ffe351-f358-4b32-b9e5-1f246b8f3083",
+   "entityVersion": "draft",
+   "entityNodeId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+   "dependencyType": "rule",
+   "dependencyId": "b8e599a4-f8c7-4f88-902c-f93319ecb337",
+   "dependencyVersion": "draft",
+   "isDeleted": false,
+   "createdAt": "2025-11-24T09:06:10.410331Z",
+   "updatedAt": "2025-11-24T09:50:37.377455Z"
   }
  ]
 }

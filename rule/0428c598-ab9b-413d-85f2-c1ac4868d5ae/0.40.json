@@ -1,15 +1,16 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2025-11-24T07:43:27.357Z",
-  "updatedAt": "2025-11-24T09:50:07.407164Z",
+  "updatedAt": "2025-11-24T09:50:07.4Z",
   "isDeleted": false,
   "testedAt": "2025-11-24T09:50:02.287Z",
   "publishedAt": "2025-11-24T09:50:07.393Z",
   "entityId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
   "name": "Rule2",
-  "commitId": "commit-e9f7eafb-4663-44fb-bab9-3547f6f2ce6e",
+  "commitId": "commit-6ae86e82-f70d-48a4-b072-fd196819ee61",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,
@@ -54,28 +55,6 @@
   },
   "conditions": {
    "nodes": {
-    "rule_01": {
-     "operator": "and",
-     "nodeType": "group",
-     "children": [
-      "rule_02"
-     ],
-     "siblingIndex": 1
-    },
-    "rule_02": {
-     "value": "",
-     "operator": "eq",
-     "dataType": "string",
-     "nodeType": "condition",
-     "parent": "rule_01",
-     "leftNode": [
-      "rule_03"
-     ],
-     "rightNode": [
-      "rhs_A270ua"
-     ],
-     "siblingIndex": 1
-    },
     "rule_03": {
      "sourceType": "customInput",
      "dataType": "string",
@@ -109,6 +88,28 @@
      "attribute": "ty",
      "parent": "rule_02",
      "siblingIndex": 1
+    },
+    "rule_01": {
+     "operator": "and",
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_02": {
+     "value": "",
+     "operator": "eq",
+     "dataType": "string",
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "rule_03"
+     ],
+     "rightNode": [
+      "rhs_A270ua"
+     ],
+     "siblingIndex": 1
     }
    }
   },
@@ -139,5 +140,20 @@
   },
   "isDemo": false,
   "schemaVersion": "0.1.1"
- }
+ },
+ "dependencies": [
+  {
+   "entityCommitId": "commit-6ae86e82-f70d-48a4-b072-fd196819ee61",
+   "entityType": "rule",
+   "entityId": "0428c598-ab9b-413d-85f2-c1ac4868d5ae",
+   "entityVersion": "0.40",
+   "entityNodeId": "ty",
+   "dependencyType": "variable",
+   "dependencyId": "329c6eb6-9e16-4eed-8dd6-b6360f791864",
+   "dependencyVersion": "live",
+   "isDeleted": false,
+   "createdAt": "2025-11-24T09:49:57.757641Z",
+   "updatedAt": "2025-11-24T09:50:07.397313Z"
+  }
+ ]
 }
